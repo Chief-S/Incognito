@@ -15,7 +15,7 @@
  /_/    \_\ |_| |_| |_|  \___|  \__| |_| |_|  \__, | |___/  \__|   |_| \_|  \___|  \__|   \_/\_/    \___/  |_|    |_|\_\
                                                __/ |                                                                    
                                               |___/                                                                     
-
+*/
 const tips = [
     'Modify Inc&#173;ogni&#173;tos appearance & browser tab in <a href="#settings">settings.</a>',
     'You can enable about:blank tab cloaking in <a href="#settings">settings.</a>',
@@ -25,7 +25,7 @@ const tips = [
     'Get answers to questions in <a href="#support">support</a>',
     `Check out <a onclick="(${ah.toString()})()">Ali&#173;enHu&#173;b</a>`
 ];
-*/
+
 function ah() {
     app.main.target.style.display = 'none';
     app.header.target.style.display = 'none';
