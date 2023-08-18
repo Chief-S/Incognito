@@ -1,11 +1,11 @@
 {
     "main": {
-        "title": "About Incognito",
+        "title": "About ProxyBoi",
         "data": "Access the world wide web, Incognito is an anti-censorship web service."
     },
     "authors": [
         {
-            "name": "<a href=\"https://github.com/caracal-js\">Caracal.js</a>",
+            "name": "<a href=\"https://github.com/Chief-S/ProxyBoi\">Caracal.js</a>",
             "data": "Creator of <a href=\"https://github.com/titaniumnetwork-dev/Ultraviolet\">Ultr&#173;avi&#173;olet</a> & Incognito</p>"
         },
         {
