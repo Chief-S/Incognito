@@ -23,7 +23,7 @@ import { App } from './app.js';
 import { gs } from './gs.js';
 import { apps } from './apps.js';
 import { access } from './home.js';
-import { options } from './options.js';
+import { settings } from './options.js';
 import { support } from './support.js';
 import { community } from './community.js';
 
