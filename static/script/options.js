@@ -567,8 +567,7 @@ async function createAbout(app) {
                 style: { 'margin-bottom': '0' }
             })
         )
-        */
-    };
+    };   */
 
     return [
         app.createElement('section', [
