@@ -583,7 +583,6 @@ async function createAbout(app) {
                 style: { 'margin-bottom': '0' }
             })
         ], { class: 'data-section' }),
-//        ], { class: 'data-section' }) : null
       
         app.createElement('section', [
             app.createElement('span', 'Authors', {
@@ -617,8 +616,8 @@ async function createAbout(app) {
                 }
             }),
             app.createElement('div', contacts)
-    //    ], { class: 'data-section' }) : null
-        ], { class: 'data-section' })
+        ], { class: 'data-section' }) : null
+    //    ], { class: 'data-section' })
     ]
 };
 
