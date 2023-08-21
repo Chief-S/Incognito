@@ -540,7 +540,7 @@ The about:blank script is based off of ABC by
 async function createAbout(app) {
     const res = await fetch('./about.json');
     const json = await res.json();
-    
+/*    
     const authors = [];
     const socials = [];
     const contacts = [];
@@ -567,6 +567,7 @@ async function createAbout(app) {
                 style: { 'margin-bottom': '0' }
             })
         )
+        */
     };
 
     return [
