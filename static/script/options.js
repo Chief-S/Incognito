@@ -532,7 +532,8 @@ The about:blank script is based off of ABC by
     tabs.switchTab('appearance');
 
     app.search.back.style.display = 'inline';
-	app.search.back.href = '#';
+    // app.search.back.href = '#';
+    app.search.back.setAttribute('onclick','(' + (function(){window.location.hash = '';}).toString() + ')();')
     app.main.content = tabs.element;
 }
 
