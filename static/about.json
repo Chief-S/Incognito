@@ -1,12 +1,23 @@
 {
     "main": {
-        "title": "About ProxyBoii",
-        "data": "Access the world wide web, ProxyBoii is an anti-censorship web service."
+        "title": "About Incognito",
+        "data": "Access the world wide web, Incognito is an anti-censorship web service."
     },
     "authors": [
         {
             "name": "<a href=\"https://github.com/Chief-S\">Chief-S</a>",
-            "data": "Creator of simple tools for others to use."
+            "data": "Creator of simple tools."
+        }
+    ],
+    "socials": [
+        {
+            "name": "<a href=\"https://discord.gg/unblock\">TN Server</a>",
+            "data": "The official Ti&#173;tan&#173;ium Ne&#173;two&#173;rk disc&#173;ord server."
+        }
+    ],
+    "contact": [
+        {
+            "name": "<a href=\"mailto:example@example.com\">No email provided</a>"
         }
     ]
 }
