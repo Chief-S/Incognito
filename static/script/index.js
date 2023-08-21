@@ -266,7 +266,5 @@ function createLink(href = null, content = '', config = {}) {
 };
 
 function timeout(time = 1000) {
-    return new Promise(resolve => 
-        setTimeout(resolve, time)
-    );
+    return new Promise(resolve => setTimeout(resolve, time));
 };
