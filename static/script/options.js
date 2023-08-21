@@ -541,10 +541,10 @@ async function createAbout(app) {
     const res = await fetch('./about.json');
     const json = await res.json();
     
-    const authors = [];
-    const socials = [];
-    const contacts = [];
-
+ //   const authors = [];
+ //   const socials = [];
+ //   const contacts = [];
+/*
     for (const entry of json.authors) {
         authors.push(
             app.createElement('p', `${entry.name}${entry.data ? ' - ' + entry.data : ''}`, {
@@ -568,7 +568,7 @@ async function createAbout(app) {
             })
         )
     };
-
+*/
     return [
         app.createElement('section', [
             app.createElement('span', json.main.title, {
@@ -582,8 +582,10 @@ async function createAbout(app) {
             app.createElement('p', json.main.data, {
                 style: { 'margin-bottom': '0' }
             })
-        ], { class: 'data-section' }),
-        app.createElement('section', [
+        //], { class: 'data-section' }),
+        ], { class: 'data-section' }) : null
+      
+  /*      app.createElement('section', [
             app.createElement('span', 'Authors', {
                 style: {
                     display: 'block',
@@ -616,6 +618,7 @@ async function createAbout(app) {
             }),
             app.createElement('div', contacts)
         ], { class: 'data-section' }) : null
+        */
     ]
 };
 
