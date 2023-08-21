@@ -582,8 +582,10 @@ async function createAbout(app) {
             app.createElement('p', json.main.data, {
                 style: { 'margin-bottom': '0' }
             })
-        ], { class: 'data-section' }),
-      
+    //    ], { class: 'data-section' }), 
+        ], { class: 'data-section' })
+    ]
+/*      
         app.createElement('section', [
             app.createElement('span', 'Authors', {
                 style: {
@@ -619,6 +621,7 @@ async function createAbout(app) {
         ], { class: 'data-section' }) : null
     //    ], { class: 'data-section' })
     ]
+    */
 };
 
 async function tabURL(url) {
