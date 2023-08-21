@@ -111,7 +111,7 @@ app.on('init', () => {
             display: 'none',
         }
     });
-    app.search.logo = createLink('#', '<img class="hu" src="img/hu.png"  width="50px" height="50px"><svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.37 365.37">  <defs>    <style>      .cls-1 {        fill: none;        stroke-width: 18px;      }      .cls-1,      .cls-2 {        stroke: var(--accent);        stroke-miterlimit: 10;      }      .cls-2 {        fill: var(--accent);        stroke-width: 5px;      }      .cls-3 {        font: bold 200px nunito;        fill: var(--accent);      }    </style>  </defs>  <circle class="cls-1" cx="182.68" cy="182.68" r="173.68"></circle>  <text x="65" y="250" class=cls-3>PB</text></svg>', {
+    app.search.logo = createLink('#', '<img class="hu" src="img/hu.png"  width="50px" height="50px"><svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.37 365.37">  <defs>    <style>      .cls-1 {        fill: none;        stroke-width: 18px;      }      .cls-1,      .cls-2 {        stroke: var(--accent);        stroke-miterlimit: 10;      }      .cls-2 {        fill: var(--accent);        stroke-width: 5px;      }      .cls-3 {        font: bold 200px nunito;        fill: var(--accent);      }    </style>  </defs>  <circle class="cls-1" cx="182.68" cy="182.68" r="173.68"></circle>  <text x="60" y="250" class=cls-3>PB</text></svg>', {
         style: {
             display: 'none'
         }
